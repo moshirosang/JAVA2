@@ -48,43 +48,43 @@ public class Search extends javax.swing.JFrame {
         choose = new javax.swing.JComboBox<>();
         enter = new javax.swing.JButton();
         back = new javax.swing.JButton();
-        twentytwo = new javax.swing.JButton();
-        eight = new javax.swing.JButton();
-        nine = new javax.swing.JButton();
-        seven = new javax.swing.JButton();
-        six = new javax.swing.JButton();
-        ten = new javax.swing.JButton();
-        eleven = new javax.swing.JButton();
-        twentythree = new javax.swing.JButton();
-        twentyfour = new javax.swing.JButton();
-        twentyfive = new javax.swing.JButton();
-        twentysix = new javax.swing.JButton();
-        nineteen = new javax.swing.JButton();
-        twenty = new javax.swing.JButton();
-        twentyseven = new javax.swing.JButton();
-        twentyone = new javax.swing.JButton();
-        eightteen = new javax.swing.JButton();
-        seventeen = new javax.swing.JButton();
-        sixteen = new javax.swing.JButton();
-        thirtyfive = new javax.swing.JButton();
-        thirtyfour = new javax.swing.JButton();
-        thirty = new javax.swing.JButton();
-        twentynine = new javax.swing.JButton();
-        twentyeight = new javax.swing.JButton();
-        fifteen = new javax.swing.JButton();
-        fourteen = new javax.swing.JButton();
-        twelve = new javax.swing.JButton();
-        three = new javax.swing.JButton();
-        four = new javax.swing.JButton();
-        five = new javax.swing.JButton();
-        two = new javax.swing.JButton();
-        one = new javax.swing.JButton();
-        thirteen = new javax.swing.JButton();
-        thirtysix = new javax.swing.JButton();
-        thirtythree = new javax.swing.JButton();
-        thirtytwo = new javax.swing.JButton();
-        thirtyone = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
+        b22 = new javax.swing.JButton();
+        b8 = new javax.swing.JButton();
+        b9 = new javax.swing.JButton();
+        b7 = new javax.swing.JButton();
+        b6 = new javax.swing.JButton();
+        b10 = new javax.swing.JButton();
+        b11 = new javax.swing.JButton();
+        b23 = new javax.swing.JButton();
+        b24 = new javax.swing.JButton();
+        b25 = new javax.swing.JButton();
+        b26 = new javax.swing.JButton();
+        b19 = new javax.swing.JButton();
+        b20 = new javax.swing.JButton();
+        b27 = new javax.swing.JButton();
+        b21 = new javax.swing.JButton();
+        b18 = new javax.swing.JButton();
+        b17 = new javax.swing.JButton();
+        b16 = new javax.swing.JButton();
+        b35 = new javax.swing.JButton();
+        b34 = new javax.swing.JButton();
+        b30 = new javax.swing.JButton();
+        b29 = new javax.swing.JButton();
+        b28 = new javax.swing.JButton();
+        b15 = new javax.swing.JButton();
+        b14 = new javax.swing.JButton();
+        b12 = new javax.swing.JButton();
+        b3 = new javax.swing.JButton();
+        b4 = new javax.swing.JButton();
+        b5 = new javax.swing.JButton();
+        b2 = new javax.swing.JButton();
+        b1 = new javax.swing.JButton();
+        b13 = new javax.swing.JButton();
+        b36 = new javax.swing.JButton();
+        b33 = new javax.swing.JButton();
+        b32 = new javax.swing.JButton();
+        b31 = new javax.swing.JButton();
+        Background = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         show = new javax.swing.JTextArea();
 
@@ -117,334 +117,334 @@ public class Search extends javax.swing.JFrame {
         getContentPane().add(back);
         back.setBounds(1190, 500, 130, 60);
 
-        twentytwo.setText("22");
-        twentytwo.addActionListener(new java.awt.event.ActionListener() {
+        b22.setText("22");
+        b22.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentytwoActionPerformed(evt);
+                b22ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentytwo);
-        twentytwo.setBounds(370, 110, 50, 30);
+        getContentPane().add(b22);
+        b22.setBounds(370, 110, 50, 30);
 
-        eight.setText("8");
-        eight.addActionListener(new java.awt.event.ActionListener() {
+        b8.setText("8");
+        b8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                eightActionPerformed(evt);
+                b8ActionPerformed(evt);
             }
         });
-        getContentPane().add(eight);
-        eight.setBounds(280, 130, 40, 30);
+        getContentPane().add(b8);
+        b8.setBounds(280, 130, 40, 30);
 
-        nine.setText("9");
-        nine.addActionListener(new java.awt.event.ActionListener() {
+        b9.setText("9");
+        b9.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nineActionPerformed(evt);
+                b9ActionPerformed(evt);
             }
         });
-        getContentPane().add(nine);
-        nine.setBounds(240, 210, 40, 30);
+        getContentPane().add(b9);
+        b9.setBounds(240, 210, 40, 30);
 
-        seven.setText("7");
-        seven.addActionListener(new java.awt.event.ActionListener() {
+        b7.setText("7");
+        b7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sevenActionPerformed(evt);
+                b7ActionPerformed(evt);
             }
         });
-        getContentPane().add(seven);
-        seven.setBounds(170, 280, 40, 30);
+        getContentPane().add(b7);
+        b7.setBounds(170, 280, 40, 30);
 
-        six.setText("6");
-        six.addActionListener(new java.awt.event.ActionListener() {
+        b6.setText("6");
+        b6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sixActionPerformed(evt);
+                b6ActionPerformed(evt);
             }
         });
-        getContentPane().add(six);
-        six.setBounds(160, 340, 40, 30);
+        getContentPane().add(b6);
+        b6.setBounds(160, 340, 40, 30);
 
-        ten.setText("10");
-        ten.addActionListener(new java.awt.event.ActionListener() {
+        b10.setText("10");
+        b10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                tenActionPerformed(evt);
+                b10ActionPerformed(evt);
             }
         });
-        getContentPane().add(ten);
-        ten.setBounds(250, 270, 50, 30);
+        getContentPane().add(b10);
+        b10.setBounds(250, 270, 50, 30);
 
-        eleven.setText("11");
-        eleven.addActionListener(new java.awt.event.ActionListener() {
+        b11.setText("11");
+        b11.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                elevenActionPerformed(evt);
+                b11ActionPerformed(evt);
             }
         });
-        getContentPane().add(eleven);
-        eleven.setBounds(310, 270, 50, 30);
+        getContentPane().add(b11);
+        b11.setBounds(310, 270, 50, 30);
 
-        twentythree.setText("23");
-        twentythree.addActionListener(new java.awt.event.ActionListener() {
+        b23.setText("23");
+        b23.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentythreeActionPerformed(evt);
+                b23ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentythree);
-        twentythree.setBounds(480, 200, 50, 30);
+        getContentPane().add(b23);
+        b23.setBounds(480, 200, 50, 30);
 
-        twentyfour.setText("24");
-        twentyfour.addActionListener(new java.awt.event.ActionListener() {
+        b24.setText("24");
+        b24.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentyfourActionPerformed(evt);
+                b24ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentyfour);
-        twentyfour.setBounds(500, 220, 50, 30);
+        getContentPane().add(b24);
+        b24.setBounds(500, 220, 50, 30);
 
-        twentyfive.setText("25");
-        twentyfive.addActionListener(new java.awt.event.ActionListener() {
+        b25.setText("25");
+        b25.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentyfiveActionPerformed(evt);
+                b25ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentyfive);
-        twentyfive.setBounds(520, 240, 50, 30);
+        getContentPane().add(b25);
+        b25.setBounds(520, 240, 50, 30);
 
-        twentysix.setText("26");
-        twentysix.addActionListener(new java.awt.event.ActionListener() {
+        b26.setText("26");
+        b26.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentysixActionPerformed(evt);
+                b26ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentysix);
-        twentysix.setBounds(550, 260, 50, 30);
+        getContentPane().add(b26);
+        b26.setBounds(550, 260, 50, 30);
 
-        nineteen.setText("19");
-        nineteen.addActionListener(new java.awt.event.ActionListener() {
+        b19.setText("19");
+        b19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                nineteenActionPerformed(evt);
+                b19ActionPerformed(evt);
             }
         });
-        getContentPane().add(nineteen);
-        nineteen.setBounds(410, 260, 50, 30);
+        getContentPane().add(b19);
+        b19.setBounds(410, 260, 50, 30);
 
-        twenty.setText("20");
-        twenty.addActionListener(new java.awt.event.ActionListener() {
+        b20.setText("20");
+        b20.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentyActionPerformed(evt);
+                b20ActionPerformed(evt);
             }
         });
-        getContentPane().add(twenty);
-        twenty.setBounds(450, 280, 50, 30);
+        getContentPane().add(b20);
+        b20.setBounds(450, 280, 50, 30);
 
-        twentyseven.setText("27");
-        twentyseven.addActionListener(new java.awt.event.ActionListener() {
+        b27.setText("27");
+        b27.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentysevenActionPerformed(evt);
+                b27ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentyseven);
-        twentyseven.setBounds(500, 290, 50, 30);
+        getContentPane().add(b27);
+        b27.setBounds(500, 290, 50, 30);
 
-        twentyone.setText("21");
-        twentyone.addActionListener(new java.awt.event.ActionListener() {
+        b21.setText("21");
+        b21.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentyoneActionPerformed(evt);
+                b21ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentyone);
-        twentyone.setBounds(450, 330, 50, 30);
+        getContentPane().add(b21);
+        b21.setBounds(450, 330, 50, 30);
 
-        eightteen.setText("18");
-        eightteen.addActionListener(new java.awt.event.ActionListener() {
+        b18.setText("18");
+        b18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                eightteenActionPerformed(evt);
+                b18ActionPerformed(evt);
             }
         });
-        getContentPane().add(eightteen);
-        eightteen.setBounds(510, 330, 50, 30);
+        getContentPane().add(b18);
+        b18.setBounds(510, 330, 50, 30);
 
-        seventeen.setText("17");
-        seventeen.addActionListener(new java.awt.event.ActionListener() {
+        b17.setText("17");
+        b17.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                seventeenActionPerformed(evt);
+                b17ActionPerformed(evt);
             }
         });
-        getContentPane().add(seventeen);
-        seventeen.setBounds(480, 360, 50, 30);
+        getContentPane().add(b17);
+        b17.setBounds(480, 360, 50, 30);
 
-        sixteen.setText("16");
-        sixteen.addActionListener(new java.awt.event.ActionListener() {
+        b16.setText("16");
+        b16.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                sixteenActionPerformed(evt);
+                b16ActionPerformed(evt);
             }
         });
-        getContentPane().add(sixteen);
-        sixteen.setBounds(500, 390, 50, 30);
+        getContentPane().add(b16);
+        b16.setBounds(500, 390, 50, 30);
 
-        thirtyfive.setText("35");
-        thirtyfive.addActionListener(new java.awt.event.ActionListener() {
+        b35.setText("35");
+        b35.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtyfiveActionPerformed(evt);
+                b35ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtyfive);
-        thirtyfive.setBounds(570, 320, 50, 30);
+        getContentPane().add(b35);
+        b35.setBounds(570, 320, 50, 30);
 
-        thirtyfour.setText("34");
-        thirtyfour.addActionListener(new java.awt.event.ActionListener() {
+        b34.setText("34");
+        b34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtyfourActionPerformed(evt);
+                b34ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtyfour);
-        thirtyfour.setBounds(620, 350, 50, 30);
+        getContentPane().add(b34);
+        b34.setBounds(620, 350, 50, 30);
 
-        thirty.setText("30");
-        thirty.addActionListener(new java.awt.event.ActionListener() {
+        b30.setText("30");
+        b30.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtyActionPerformed(evt);
+                b30ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirty);
-        thirty.setBounds(580, 400, 50, 30);
+        getContentPane().add(b30);
+        b30.setBounds(580, 400, 50, 30);
 
-        twentynine.setText("29");
-        twentynine.addActionListener(new java.awt.event.ActionListener() {
+        b29.setText("29");
+        b29.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentynineActionPerformed(evt);
+                b29ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentynine);
-        twentynine.setBounds(560, 430, 50, 30);
+        getContentPane().add(b29);
+        b29.setBounds(560, 430, 50, 30);
 
-        twentyeight.setText("28");
-        twentyeight.addActionListener(new java.awt.event.ActionListener() {
+        b28.setText("28");
+        b28.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twentyeightActionPerformed(evt);
+                b28ActionPerformed(evt);
             }
         });
-        getContentPane().add(twentyeight);
-        twentyeight.setBounds(560, 460, 50, 30);
+        getContentPane().add(b28);
+        b28.setBounds(560, 460, 50, 30);
 
-        fifteen.setText("15");
-        fifteen.addActionListener(new java.awt.event.ActionListener() {
+        b15.setText("15");
+        b15.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fifteenActionPerformed(evt);
+                b15ActionPerformed(evt);
             }
         });
-        getContentPane().add(fifteen);
-        fifteen.setBounds(490, 450, 50, 30);
+        getContentPane().add(b15);
+        b15.setBounds(490, 450, 50, 30);
 
-        fourteen.setText("14");
-        fourteen.addActionListener(new java.awt.event.ActionListener() {
+        b14.setText("14");
+        b14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fourteenActionPerformed(evt);
+                b14ActionPerformed(evt);
             }
         });
-        getContentPane().add(fourteen);
-        fourteen.setBounds(430, 470, 50, 30);
+        getContentPane().add(b14);
+        b14.setBounds(430, 470, 50, 30);
 
-        twelve.setText("12");
-        twelve.addActionListener(new java.awt.event.ActionListener() {
+        b12.setText("12");
+        b12.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twelveActionPerformed(evt);
+                b12ActionPerformed(evt);
             }
         });
-        getContentPane().add(twelve);
-        twelve.setBounds(350, 480, 50, 30);
+        getContentPane().add(b12);
+        b12.setBounds(350, 480, 50, 30);
 
-        three.setText("3");
-        three.addActionListener(new java.awt.event.ActionListener() {
+        b3.setText("3");
+        b3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                threeActionPerformed(evt);
+                b3ActionPerformed(evt);
             }
         });
-        getContentPane().add(three);
-        three.setBounds(300, 380, 50, 30);
+        getContentPane().add(b3);
+        b3.setBounds(300, 380, 50, 30);
 
-        four.setText("4");
-        four.addActionListener(new java.awt.event.ActionListener() {
+        b4.setText("4");
+        b4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fourActionPerformed(evt);
+                b4ActionPerformed(evt);
             }
         });
-        getContentPane().add(four);
-        four.setBounds(220, 410, 40, 30);
+        getContentPane().add(b4);
+        b4.setBounds(220, 410, 40, 30);
 
-        five.setText("5");
-        five.addActionListener(new java.awt.event.ActionListener() {
+        b5.setText("5");
+        b5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                fiveActionPerformed(evt);
+                b5ActionPerformed(evt);
             }
         });
-        getContentPane().add(five);
-        five.setBounds(160, 430, 40, 30);
+        getContentPane().add(b5);
+        b5.setBounds(160, 430, 40, 30);
 
-        two.setText("2");
-        two.addActionListener(new java.awt.event.ActionListener() {
+        b2.setText("2");
+        b2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                twoActionPerformed(evt);
+                b2ActionPerformed(evt);
             }
         });
-        getContentPane().add(two);
-        two.setBounds(280, 490, 40, 30);
+        getContentPane().add(b2);
+        b2.setBounds(280, 490, 40, 30);
 
-        one.setText("1");
-        one.addActionListener(new java.awt.event.ActionListener() {
+        b1.setText("1");
+        b1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                oneActionPerformed(evt);
+                b1ActionPerformed(evt);
             }
         });
-        getContentPane().add(one);
-        one.setBounds(290, 523, 40, 30);
+        getContentPane().add(b1);
+        b1.setBounds(290, 523, 40, 30);
 
-        thirteen.setText("13");
-        thirteen.addActionListener(new java.awt.event.ActionListener() {
+        b13.setText("13");
+        b13.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirteenActionPerformed(evt);
+                b13ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirteen);
-        thirteen.setBounds(320, 560, 50, 30);
+        getContentPane().add(b13);
+        b13.setBounds(320, 560, 50, 30);
 
-        thirtysix.setText("36");
-        thirtysix.addActionListener(new java.awt.event.ActionListener() {
+        b36.setText("36");
+        b36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtysixActionPerformed(evt);
+                b36ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtysix);
-        thirtysix.setBounds(780, 390, 50, 30);
+        getContentPane().add(b36);
+        b36.setBounds(780, 390, 50, 30);
 
-        thirtythree.setText("33");
-        thirtythree.addActionListener(new java.awt.event.ActionListener() {
+        b33.setText("33");
+        b33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtythreeActionPerformed(evt);
+                b33ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtythree);
-        thirtythree.setBounds(710, 410, 50, 30);
+        getContentPane().add(b33);
+        b33.setBounds(710, 410, 50, 30);
 
-        thirtytwo.setText("32");
-        thirtytwo.addActionListener(new java.awt.event.ActionListener() {
+        b32.setText("32");
+        b32.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtytwoActionPerformed(evt);
+                b32ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtytwo);
-        thirtytwo.setBounds(660, 420, 50, 30);
+        getContentPane().add(b32);
+        b32.setBounds(660, 420, 50, 30);
 
-        thirtyone.setText("31");
-        thirtyone.addActionListener(new java.awt.event.ActionListener() {
+        b31.setText("31");
+        b31.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                thirtyoneActionPerformed(evt);
+                b31ActionPerformed(evt);
             }
         });
-        getContentPane().add(thirtyone);
-        thirtyone.setBounds(630, 390, 50, 30);
+        getContentPane().add(b31);
+        b31.setBounds(630, 390, 50, 30);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Moshirosang\\Desktop\\bangmod-map2.jpg")); // NOI18N
-        jLabel2.setText("jLabel2");
-        getContentPane().add(jLabel2);
-        jLabel2.setBounds(0, 0, 900, 720);
+        Background.setIcon(new javax.swing.ImageIcon("E:\\Pj2\\image\\bangmod-map2.jpg")); // NOI18N
+        Background.setText("jLabel2");
+        getContentPane().add(Background);
+        Background.setBounds(0, 0, 900, 720);
 
         show.setColumns(20);
         show.setRows(5);
@@ -468,192 +468,230 @@ public class Search extends javax.swing.JFrame {
         this.setVisible(false);
     }//GEN-LAST:event_backActionPerformed
 
-    private void twentytwoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentytwoActionPerformed
+    private void b22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b22ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(22).toString());
-    }//GEN-LAST:event_twentytwoActionPerformed
+    }//GEN-LAST:event_b22ActionPerformed
 
-    private void tenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tenActionPerformed
+    private void b10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b10ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(10).toString());
-    }//GEN-LAST:event_tenActionPerformed
+    }//GEN-LAST:event_b10ActionPerformed
 
-    private void sixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixActionPerformed
+    private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(6).toString());
-    }//GEN-LAST:event_sixActionPerformed
+    }//GEN-LAST:event_b6ActionPerformed
 
-    private void thirtyfiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtyfiveActionPerformed
+    private void b35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b35ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(35).toString());
-    }//GEN-LAST:event_thirtyfiveActionPerformed
+    }//GEN-LAST:event_b35ActionPerformed
 
-    private void twentysevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentysevenActionPerformed
+    private void b27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b27ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(27).toString());
 
-    }//GEN-LAST:event_twentysevenActionPerformed
+    }//GEN-LAST:event_b27ActionPerformed
 
-    private void oneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oneActionPerformed
+    private void b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(1).toString());
-    }//GEN-LAST:event_oneActionPerformed
+    }//GEN-LAST:event_b1ActionPerformed
 
-    private void fiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fiveActionPerformed
+    private void b5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(5).toString());
-    }//GEN-LAST:event_fiveActionPerformed
+    }//GEN-LAST:event_b5ActionPerformed
 
-    private void eightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightActionPerformed
+    private void b8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b8ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(8).toString());
-    }//GEN-LAST:event_eightActionPerformed
+    }//GEN-LAST:event_b8ActionPerformed
 
-    private void twoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twoActionPerformed
+    private void b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(2).toString());
-    }//GEN-LAST:event_twoActionPerformed
+    }//GEN-LAST:event_b2ActionPerformed
 
-    private void threeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_threeActionPerformed
+    private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(3).toString());
-    }//GEN-LAST:event_threeActionPerformed
+    }//GEN-LAST:event_b3ActionPerformed
 
-    private void fourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourActionPerformed
+    private void b4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b4ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(4).toString());
-    }//GEN-LAST:event_fourActionPerformed
+    }//GEN-LAST:event_b4ActionPerformed
 
-    private void sevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sevenActionPerformed
+    private void b7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(7).toString());
-    }//GEN-LAST:event_sevenActionPerformed
+    }//GEN-LAST:event_b7ActionPerformed
 
-    private void nineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineActionPerformed
+    private void b9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b9ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(9).toString());
-    }//GEN-LAST:event_nineActionPerformed
+    }//GEN-LAST:event_b9ActionPerformed
 
-    private void elevenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_elevenActionPerformed
+    private void b11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b11ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(11).toString());
-    }//GEN-LAST:event_elevenActionPerformed
+    }//GEN-LAST:event_b11ActionPerformed
 
-    private void twelveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twelveActionPerformed
+    private void b12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b12ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(12).toString());
-    }//GEN-LAST:event_twelveActionPerformed
+    }//GEN-LAST:event_b12ActionPerformed
 
-    private void thirteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirteenActionPerformed
+    private void b13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b13ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(13).toString());
-    }//GEN-LAST:event_thirteenActionPerformed
+    }//GEN-LAST:event_b13ActionPerformed
 
-    private void fourteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fourteenActionPerformed
+    private void b14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b14ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(14).toString());
-    }//GEN-LAST:event_fourteenActionPerformed
+    }//GEN-LAST:event_b14ActionPerformed
 
-    private void fifteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fifteenActionPerformed
+    private void b15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b15ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(15).toString());
-    }//GEN-LAST:event_fifteenActionPerformed
+    }//GEN-LAST:event_b15ActionPerformed
 
-    private void sixteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sixteenActionPerformed
+    private void b16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b16ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(16).toString());
-    }//GEN-LAST:event_sixteenActionPerformed
+    }//GEN-LAST:event_b16ActionPerformed
 
-    private void seventeenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seventeenActionPerformed
+    private void b17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b17ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(17).toString());
-    }//GEN-LAST:event_seventeenActionPerformed
+    }//GEN-LAST:event_b17ActionPerformed
 
-    private void eightteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_eightteenActionPerformed
+    private void b18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b18ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(18).toString());
-    }//GEN-LAST:event_eightteenActionPerformed
+    }//GEN-LAST:event_b18ActionPerformed
 
-    private void nineteenActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nineteenActionPerformed
+    private void b19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b19ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(19).toString());
-    }//GEN-LAST:event_nineteenActionPerformed
+    }//GEN-LAST:event_b19ActionPerformed
 
-    private void twentyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentyActionPerformed
+    private void b20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b20ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(20).toString());
-    }//GEN-LAST:event_twentyActionPerformed
+    }//GEN-LAST:event_b20ActionPerformed
 
-    private void twentyoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentyoneActionPerformed
+    private void b21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b21ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(21).toString());
-    }//GEN-LAST:event_twentyoneActionPerformed
+    }//GEN-LAST:event_b21ActionPerformed
 
-    private void twentythreeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentythreeActionPerformed
+    private void b23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b23ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(23).toString());
-    }//GEN-LAST:event_twentythreeActionPerformed
+    }//GEN-LAST:event_b23ActionPerformed
 
-    private void twentyfourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentyfourActionPerformed
+    private void b24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b24ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(24).toString());
-    }//GEN-LAST:event_twentyfourActionPerformed
+    }//GEN-LAST:event_b24ActionPerformed
 
-    private void twentyfiveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentyfiveActionPerformed
+    private void b25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b25ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(25).toString());
-    }//GEN-LAST:event_twentyfiveActionPerformed
+    }//GEN-LAST:event_b25ActionPerformed
 
-    private void twentysixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentysixActionPerformed
+    private void b26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b26ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(26).toString());
-    }//GEN-LAST:event_twentysixActionPerformed
+    }//GEN-LAST:event_b26ActionPerformed
 
-    private void twentyeightActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentyeightActionPerformed
+    private void b28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b28ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(28).toString());
-    }//GEN-LAST:event_twentyeightActionPerformed
+    }//GEN-LAST:event_b28ActionPerformed
 
-    private void twentynineActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_twentynineActionPerformed
+    private void b29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b29ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(29).toString());
-    }//GEN-LAST:event_twentynineActionPerformed
+    }//GEN-LAST:event_b29ActionPerformed
 
-    private void thirtyActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtyActionPerformed
+    private void b30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b30ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(30).toString());
-    }//GEN-LAST:event_thirtyActionPerformed
+    }//GEN-LAST:event_b30ActionPerformed
 
-    private void thirtyoneActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtyoneActionPerformed
+    private void b31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b31ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(31).toString());
-    }//GEN-LAST:event_thirtyoneActionPerformed
+    }//GEN-LAST:event_b31ActionPerformed
 
-    private void thirtytwoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtytwoActionPerformed
+    private void b32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b32ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(32).toString());
-    }//GEN-LAST:event_thirtytwoActionPerformed
+    }//GEN-LAST:event_b32ActionPerformed
 
-    private void thirtythreeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtythreeActionPerformed
+    private void b33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b33ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(33).toString());
-    }//GEN-LAST:event_thirtythreeActionPerformed
+    }//GEN-LAST:event_b33ActionPerformed
 
-    private void thirtyfourActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtyfourActionPerformed
+    private void b34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b34ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(34).toString());
-    }//GEN-LAST:event_thirtyfourActionPerformed
+    }//GEN-LAST:event_b34ActionPerformed
 
-    private void thirtysixActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thirtysixActionPerformed
+    private void b36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b36ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(36).toString());
-    }//GEN-LAST:event_thirtysixActionPerformed
+    }//GEN-LAST:event_b36ActionPerformed
 
     private void enterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enterActionPerformed
         // TODO add your handling code here:
         String name = choose.getSelectedItem().toString();
         String detail = Building.showDetailBuild(name).toString();
-        Building.showDetailBuild(name).getBuildingID();//ยังไม่เสร็จ
+        
+        switch(Building.showDetailBuild(name).getBuildingID()){
+            case 1 : b1.setBackground(Color.red); break;
+            case 2 : b2.setBackground(Color.red);break;
+            case 3 : b3.setBackground(Color.red);break;
+            case 4 : b4.setBackground(Color.red);break;
+            case 5 : b5.setBackground(Color.red);break;
+            case 6 : b6.setBackground(Color.red);break;
+            case 7 : b7.setBackground(Color.red);break;
+            case 8 : b8.setBackground(Color.red);break;
+            case 9 : b9.setBackground(Color.red);break;
+            case 10 : b10.setBackground(Color.red);break;
+            case 11 : b11.setBackground(Color.red);break;
+            case 12 : b12.setBackground(Color.red);break;
+            case 13 : b13.setBackground(Color.red);break;
+            case 14 : b14.setBackground(Color.red);break;
+            case 15 : b15.setBackground(Color.red);break;
+            case 16 : b16.setBackground(Color.red);break;
+            case 17 : b17.setBackground(Color.red);break;
+            case 18 : b18.setBackground(Color.red);break;
+            case 19 : b19.setBackground(Color.red);break;
+            case 20 : b20.setBackground(Color.red);break;
+            case 21 : b21.setBackground(Color.red);break;
+            case 22 : b22.setBackground(Color.red);break;
+            case 23 : b23.setBackground(Color.red);break;
+            case 24 : b24.setBackground(Color.red);break;
+            case 25 : b25.setBackground(Color.red);break;
+            case 26 : b26.setBackground(Color.red);break;
+            case 27 : b27.setBackground(Color.red);break;
+            case 28 : b28.setBackground(Color.red);break;
+            case 29 : b29.setBackground(Color.red);break;
+            case 30 : b30.setBackground(Color.red);break;
+            case 31 : b31.setBackground(Color.red);break;
+            case 32 : b32.setBackground(Color.red);break;
+            case 33 : b32.setBackground(Color.red);break;
+            case 34 : b32.setBackground(Color.red);break;
+            case 35 : b32.setBackground(Color.red);break;
+            case 36 : b32.setBackground(Color.red);break;
+        }
         show.setText(detail);
     }//GEN-LAST:event_enterActionPerformed
 
@@ -698,47 +736,47 @@ public class Search extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Background;
+    private javax.swing.JButton b1;
+    private javax.swing.JButton b10;
+    private javax.swing.JButton b11;
+    private javax.swing.JButton b12;
+    private javax.swing.JButton b13;
+    private javax.swing.JButton b14;
+    private javax.swing.JButton b15;
+    private javax.swing.JButton b16;
+    private javax.swing.JButton b17;
+    private javax.swing.JButton b18;
+    private javax.swing.JButton b19;
+    private javax.swing.JButton b2;
+    private javax.swing.JButton b20;
+    private javax.swing.JButton b21;
+    private javax.swing.JButton b22;
+    private javax.swing.JButton b23;
+    private javax.swing.JButton b24;
+    private javax.swing.JButton b25;
+    private javax.swing.JButton b26;
+    private javax.swing.JButton b27;
+    private javax.swing.JButton b28;
+    private javax.swing.JButton b29;
+    private javax.swing.JButton b3;
+    private javax.swing.JButton b30;
+    private javax.swing.JButton b31;
+    private javax.swing.JButton b32;
+    private javax.swing.JButton b33;
+    private javax.swing.JButton b34;
+    private javax.swing.JButton b35;
+    private javax.swing.JButton b36;
+    private javax.swing.JButton b4;
+    private javax.swing.JButton b5;
+    private javax.swing.JButton b6;
+    private javax.swing.JButton b7;
+    private javax.swing.JButton b8;
+    private javax.swing.JButton b9;
     private javax.swing.JButton back;
     private javax.swing.JComboBox<String> choose;
-    private javax.swing.JButton eight;
-    private javax.swing.JButton eightteen;
-    private javax.swing.JButton eleven;
     private javax.swing.JButton enter;
-    private javax.swing.JButton fifteen;
-    private javax.swing.JButton five;
-    private javax.swing.JButton four;
-    private javax.swing.JButton fourteen;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JButton nine;
-    private javax.swing.JButton nineteen;
-    private javax.swing.JButton one;
-    private javax.swing.JButton seven;
-    private javax.swing.JButton seventeen;
     private javax.swing.JTextArea show;
-    private javax.swing.JButton six;
-    private javax.swing.JButton sixteen;
-    private javax.swing.JButton ten;
-    private javax.swing.JButton thirteen;
-    private javax.swing.JButton thirty;
-    private javax.swing.JButton thirtyfive;
-    private javax.swing.JButton thirtyfour;
-    private javax.swing.JButton thirtyone;
-    private javax.swing.JButton thirtysix;
-    private javax.swing.JButton thirtythree;
-    private javax.swing.JButton thirtytwo;
-    private javax.swing.JButton three;
-    private javax.swing.JButton twelve;
-    private javax.swing.JButton twenty;
-    private javax.swing.JButton twentyeight;
-    private javax.swing.JButton twentyfive;
-    private javax.swing.JButton twentyfour;
-    private javax.swing.JButton twentynine;
-    private javax.swing.JButton twentyone;
-    private javax.swing.JButton twentyseven;
-    private javax.swing.JButton twentysix;
-    private javax.swing.JButton twentythree;
-    private javax.swing.JButton twentytwo;
-    private javax.swing.JButton two;
     // End of variables declaration//GEN-END:variables
-
+}
