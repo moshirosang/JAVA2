@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project;
 
 import Entity.Building;
@@ -441,7 +436,7 @@ public class Search extends javax.swing.JFrame {
         getContentPane().add(b31);
         b31.setBounds(630, 390, 50, 30);
 
-        Background.setIcon(new javax.swing.ImageIcon("E:\\Pj2\\image\\bangmod-map2.jpg")); // NOI18N
+        Background.setIcon(new javax.swing.ImageIcon("E:\\Pj2\\Project\\image\\bangmod-map2.jpg")); // NOI18N
         Background.setText("jLabel2");
         getContentPane().add(Background);
         Background.setBounds(0, 0, 900, 720);
