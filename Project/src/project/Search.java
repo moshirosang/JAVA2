@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package project;
 
 import Entity.Building;
@@ -84,7 +79,7 @@ public class Search extends javax.swing.JFrame {
         b33 = new javax.swing.JButton();
         b32 = new javax.swing.JButton();
         b31 = new javax.swing.JButton();
-        Background = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         show = new javax.swing.JTextArea();
 
@@ -441,10 +436,10 @@ public class Search extends javax.swing.JFrame {
         getContentPane().add(b31);
         b31.setBounds(630, 390, 50, 30);
 
-        Background.setIcon(new javax.swing.ImageIcon("E:\\Pj2\\image\\bangmod-map2.jpg")); // NOI18N
-        Background.setText("jLabel2");
-        getContentPane().add(Background);
-        Background.setBounds(0, 0, 900, 720);
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\Moshirosang\\Desktop\\bangmod-map2.jpg")); // NOI18N
+        jLabel2.setText("jLabel2");
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(0, 0, 900, 720);
 
         show.setColumns(20);
         show.setRows(5);
@@ -471,189 +466,260 @@ public class Search extends javax.swing.JFrame {
     private void b22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b22ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(22).toString());
+        setBgColor();
+        b22.setBackground(Color.red);
     }//GEN-LAST:event_b22ActionPerformed
 
     private void b10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b10ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(10).toString());
+        setBgColor();
+        b10.setBackground(Color.red);
     }//GEN-LAST:event_b10ActionPerformed
 
     private void b6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b6ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(6).toString());
+        setBgColor();
+        b6.setBackground(Color.red);
     }//GEN-LAST:event_b6ActionPerformed
 
     private void b35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b35ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(35).toString());
+        setBgColor();
+        b35.setBackground(Color.red);
     }//GEN-LAST:event_b35ActionPerformed
 
     private void b27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b27ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(27).toString());
-
+        setBgColor();
+        b27.setBackground(Color.red);
     }//GEN-LAST:event_b27ActionPerformed
 
     private void b1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b1ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(1).toString());
+        setBgColor();
+        b1.setBackground(Color.red);
     }//GEN-LAST:event_b1ActionPerformed
 
     private void b5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b5ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(5).toString());
+        setBgColor();
+        b5.setBackground(Color.red);
     }//GEN-LAST:event_b5ActionPerformed
 
     private void b8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b8ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(8).toString());
+        setBgColor();
+        b8.setBackground(Color.red);
     }//GEN-LAST:event_b8ActionPerformed
 
     private void b2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b2ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(2).toString());
+        setBgColor();
+        b2.setBackground(Color.red);
     }//GEN-LAST:event_b2ActionPerformed
 
     private void b3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b3ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(3).toString());
+        setBgColor();
+        b3.setBackground(Color.red);
     }//GEN-LAST:event_b3ActionPerformed
 
     private void b4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b4ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(4).toString());
+        setBgColor();
+        b4.setBackground(Color.red);
     }//GEN-LAST:event_b4ActionPerformed
 
     private void b7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b7ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(7).toString());
+        setBgColor();
+        b7.setBackground(Color.red);
     }//GEN-LAST:event_b7ActionPerformed
 
     private void b9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b9ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(9).toString());
+        setBgColor();
+        b9.setBackground(Color.red);
     }//GEN-LAST:event_b9ActionPerformed
 
     private void b11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b11ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(11).toString());
+        setBgColor();
+        b11.setBackground(Color.red);
     }//GEN-LAST:event_b11ActionPerformed
 
     private void b12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b12ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(12).toString());
+        setBgColor();
+        b12.setBackground(Color.red);        
     }//GEN-LAST:event_b12ActionPerformed
 
     private void b13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b13ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(13).toString());
+        setBgColor();
+        b13.setBackground(Color.red);
     }//GEN-LAST:event_b13ActionPerformed
 
     private void b14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b14ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(14).toString());
+        setBgColor();
+        b14.setBackground(Color.red);
     }//GEN-LAST:event_b14ActionPerformed
 
     private void b15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b15ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(15).toString());
+        setBgColor();
+        b15.setBackground(Color.red);
     }//GEN-LAST:event_b15ActionPerformed
 
     private void b16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b16ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(16).toString());
+        setBgColor();
+        b16.setBackground(Color.red);
     }//GEN-LAST:event_b16ActionPerformed
 
     private void b17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b17ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(17).toString());
+        setBgColor();
+        b17.setBackground(Color.red);
     }//GEN-LAST:event_b17ActionPerformed
 
     private void b18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b18ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(18).toString());
+        setBgColor();
+        b18.setBackground(Color.red);
     }//GEN-LAST:event_b18ActionPerformed
 
     private void b19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b19ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(19).toString());
+        setBgColor();
+        b19.setBackground(Color.red);
     }//GEN-LAST:event_b19ActionPerformed
 
     private void b20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b20ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(20).toString());
+        setBgColor();
+        b20.setBackground(Color.red);
     }//GEN-LAST:event_b20ActionPerformed
 
     private void b21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b21ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(21).toString());
+        setBgColor();
+        b21.setBackground(Color.red);
     }//GEN-LAST:event_b21ActionPerformed
 
     private void b23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b23ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(23).toString());
+        setBgColor();
+        b23.setBackground(Color.red);
     }//GEN-LAST:event_b23ActionPerformed
 
     private void b24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b24ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(24).toString());
+        setBgColor();
+        b24.setBackground(Color.red);
     }//GEN-LAST:event_b24ActionPerformed
 
     private void b25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b25ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(25).toString());
+        setBgColor();
+        b25.setBackground(Color.red);
     }//GEN-LAST:event_b25ActionPerformed
 
     private void b26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b26ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(26).toString());
+        setBgColor();
+        b26.setBackground(Color.red);
     }//GEN-LAST:event_b26ActionPerformed
 
     private void b28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b28ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(28).toString());
+        setBgColor();
+        b28.setBackground(Color.red);
     }//GEN-LAST:event_b28ActionPerformed
 
     private void b29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b29ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(29).toString());
+        setBgColor();
+        b29.setBackground(Color.red);
     }//GEN-LAST:event_b29ActionPerformed
 
     private void b30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b30ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(30).toString());
+        setBgColor();
+        b30.setBackground(Color.red);
     }//GEN-LAST:event_b30ActionPerformed
 
     private void b31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b31ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(31).toString());
+        setBgColor();
+        b31.setBackground(Color.red);
     }//GEN-LAST:event_b31ActionPerformed
 
     private void b32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b32ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(32).toString());
+        setBgColor();
+        b32.setBackground(Color.red);
     }//GEN-LAST:event_b32ActionPerformed
 
     private void b33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b33ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(33).toString());
+        setBgColor();
+        b33.setBackground(Color.red);
     }//GEN-LAST:event_b33ActionPerformed
 
     private void b34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b34ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(34).toString());
+        setBgColor();
+        b34.setBackground(Color.red);
     }//GEN-LAST:event_b34ActionPerformed
 
     private void b36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_b36ActionPerformed
         // TODO add your handling code here:
         show.setText(Building.showDetailBuild(36).toString());
+        setBgColor();
+        b36.setBackground(Color.red);
     }//GEN-LAST:event_b36ActionPerformed
 
     private void enterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_enterActionPerformed
         // TODO add your handling code here:
         String name = choose.getSelectedItem().toString();
         String detail = Building.showDetailBuild(name).toString();
-        
+        setBgColor();
         switch(Building.showDetailBuild(name).getBuildingID()){
             case 1 : b1.setBackground(Color.red); break;
             case 2 : b2.setBackground(Color.red);break;
@@ -694,7 +760,44 @@ public class Search extends javax.swing.JFrame {
         }
         show.setText(detail);
     }//GEN-LAST:event_enterActionPerformed
-
+    public void setBgColor(){
+        b1.setBackground(Color.lightGray);
+        b2.setBackground(Color.lightGray);
+        b3.setBackground(Color.lightGray);
+        b4.setBackground(Color.lightGray);
+        b5.setBackground(Color.lightGray);
+        b6.setBackground(Color.lightGray);
+        b7.setBackground(Color.lightGray);
+        b8.setBackground(Color.lightGray);
+        b9.setBackground(Color.lightGray);
+        b10.setBackground(Color.lightGray);
+        b11.setBackground(Color.lightGray);
+        b12.setBackground(Color.lightGray);
+        b13.setBackground(Color.lightGray);
+        b14.setBackground(Color.lightGray);
+        b15.setBackground(Color.lightGray);
+        b16.setBackground(Color.lightGray);
+        b17.setBackground(Color.lightGray);
+        b18.setBackground(Color.lightGray);
+        b19.setBackground(Color.lightGray);
+        b20.setBackground(Color.lightGray);
+        b21.setBackground(Color.lightGray);
+        b22.setBackground(Color.lightGray);
+        b23.setBackground(Color.lightGray);
+        b24.setBackground(Color.lightGray);
+        b25.setBackground(Color.lightGray);
+        b26.setBackground(Color.lightGray);
+        b27.setBackground(Color.lightGray);
+        b28.setBackground(Color.lightGray);
+        b29.setBackground(Color.lightGray);
+        b30.setBackground(Color.lightGray);
+        b31.setBackground(Color.lightGray);
+        b32.setBackground(Color.lightGray);
+        b33.setBackground(Color.lightGray);
+        b34.setBackground(Color.lightGray);
+        b35.setBackground(Color.lightGray);
+        b36.setBackground(Color.lightGray);
+    }
     /**
      * @param args the command line arguments
      */
@@ -736,7 +839,6 @@ public class Search extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel Background;
     private javax.swing.JButton b1;
     private javax.swing.JButton b10;
     private javax.swing.JButton b11;
@@ -776,6 +878,7 @@ public class Search extends javax.swing.JFrame {
     private javax.swing.JButton back;
     private javax.swing.JComboBox<String> choose;
     private javax.swing.JButton enter;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTextArea show;
     // End of variables declaration//GEN-END:variables
