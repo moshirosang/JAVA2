@@ -16,6 +16,7 @@ public class ooo extends javax.swing.JFrame {
      */
     public ooo() {
         initComponents();
+        System.out.println("Hello Tiw");
     }
 
     /**
